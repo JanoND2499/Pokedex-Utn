@@ -1,0 +1,9 @@
+/* Ubicación exacta: src/components/Footer.css */
+.footer-container {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 14px;
+}
