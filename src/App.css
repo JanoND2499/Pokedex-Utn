@@ -70,3 +70,41 @@
 .modal-cerrar:hover {
   color: #ef5350 !important; 
 }
+
+/* Botones para paginado */
+
+.app-paginado-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.app-btn-paginado {
+  background-color: #ef5350;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: background-color 0.2s;
+}
+
+.app-btn-paginado:hover:not(:disabled) {
+  background-color: #e53935;
+}
+
+.app-btn-paginado:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.app-pagina-texto {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
