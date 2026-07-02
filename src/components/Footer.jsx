@@ -1,5 +1,5 @@
 /* Ubicación exacta: src/components/Footer.jsx */
-import './Footer.css'; // Importamos sus propios estilos
+import './Footer.css'; // Para importar sus propios estilo
 
 function Footer() {
   return (
